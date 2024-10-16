@@ -1,25 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from 'react';
+import CentroRectangulo from './DashPrueba/CentroRectangulo'; // Asegúrate de ajustar la ruta correctamente
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Holiwis Jose uwu
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <CentroRectangulo>
+      {/* Aquí puedes colocar el contenido que desees dentro del rectángulo */}
+      <h1>Bienvenido</h1>
+      <p>Este es un rectángulo blanco centrado</p>
+      <button>Acción</button>
+    </CentroRectangulo>
   );
 }
 
 export default App;
+
+

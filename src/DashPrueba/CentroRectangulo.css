@@ -1,0 +1,20 @@
+/* CentroRectangulo.css */
+.fondo-gris {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Ocupa toda la altura de la ventana */
+  background-color: #c9c2c2; /* Fondo gris */
+}
+
+.rectangulo-blanco {
+  position: absolute; /* Permite ubicar el rectángulo donde quieras */
+  background-color: white;
+  border-radius: 15px;
+  width: 900px;
+  padding: 250px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  top: 35%; /* Cambia esto para ajustar la ubicación vertical */
+  left: 58%; /* Cambia esto para ajustar la ubicación horizontal */
+  transform: translate(-50%, -20%); /* Ajuste de posicionamiento exacto al centro */
+}
